@@ -3,6 +3,7 @@
 .intro_block {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: $black_primary;
     .col_image {
         .inner {
             padding-top: 40px;
@@ -16,17 +17,19 @@
     .col_content {
         .inner {
             h3 {
-                font-size: 24px;
+                font-size: 26px;
                 font-family: $font_forms;
                 color: $blue_primary;
                 text-align: center;
                 margin-bottom: 30px;
+                font-weight: 500;
             }
             p {
                 font-size: 18px;
                 font-family: $font_body;
-                color: $black_primary;
+                color: $white_primary;
                 font-weight: 300;
+                margin-bottom: 30px;
             }
         }
     }
