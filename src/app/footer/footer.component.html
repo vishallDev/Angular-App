@@ -1,0 +1,20 @@
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <div class="top_wrap"><p> &copy; {{dateyear}} <a href="">WebDevVishal</a> All Rights Reserved. Developed By <a href="">Vishal Bhosale</a></p></div>
+        <div class="bottom_wrap">
+
+          <ul>
+            <li *ngFor="let row of social;let  i as index">
+              <a href="{{row.link}}">
+                <i class="{{row.icon}}"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

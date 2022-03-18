@@ -1,0 +1,26 @@
+// FONTS
+$font_big_heading: 'Palette Mosaic';
+$font_headings: 'Mali'; //300 400 500 600
+$font_forms: 'Rock Salt';
+$font_body: 'Overlock';
+$font_mario: 'Press Start 2P';
+
+$black_primary: #171717;
+$white_primary: #ffffff;
+$color-black: #000000;
+
+$blue_primary: #4ABDAC;
+$red_primary: #FC4A1A;
+$yellow_primary: #F7B733;
+$grey_secondary: #DFDCE3;
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1480px;
+    }
+}
+
+@mixin transition() {
+    transition: 0.7s ease all;
+}
