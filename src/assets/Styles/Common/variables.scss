@@ -24,3 +24,19 @@ $grey_secondary: #DFDCE3;
 @mixin transition() {
     transition: 0.7s ease all;
 }
+
+.btn {
+    padding: 10px 28px;
+    display: inline-block;
+    color: $yellow_primary;
+    background-color: $black_primary;
+    text-decoration: none;
+    font-family: $font_headings;
+    font-size: 18px;
+    font-weight: 400;
+    @include transition();
+    &:hover {
+        background-color: $yellow_primary;
+        color: $black_primary;
+    }
+}
