@@ -1,1 +1,14 @@
 @import "../assets/Styles/Common/variables.scss";
+.loader_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: $white_primary, $alpha: 1);
+    z-index: 10;
+    display: grid;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}

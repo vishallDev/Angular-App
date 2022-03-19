@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  demo:boolean =true;
   title = 'developer_vishal';
+
+  ngOnInit(): void {
+    setTimeout(() => {
+      this.demo=false;
+    }, 2000);
+  }
 }
