@@ -10,6 +10,7 @@ import { HeroComponent } from './hero/hero.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillCardsComponent } from './skill-cards/skill-cards.component';
 import { IntroBlockComponent } from './intro-block/intro-block.component';
+import { CtaBlockComponent } from './cta-block/cta-block.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { IntroBlockComponent } from './intro-block/intro-block.component';
     HeroComponent,
     AboutMeComponent,
     SkillCardsComponent,
-    IntroBlockComponent
+    IntroBlockComponent,
+    CtaBlockComponent
   ],
   imports: [
     BrowserModule,
