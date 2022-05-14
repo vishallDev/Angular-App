@@ -41,3 +41,7 @@ $grey_secondary: #DFDCE3;
         color: $black_primary;
     }
 }
+
+@mixin transition(){
+    transition: 0.2s ease all;
+}
