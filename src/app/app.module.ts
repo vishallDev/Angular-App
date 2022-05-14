@@ -12,6 +12,7 @@ import { SkillCardsComponent } from './skill-cards/skill-cards.component';
 import { IntroBlockComponent } from './intro-block/intro-block.component';
 import { CtaBlockComponent } from './cta-block/cta-block.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ProgressSkillComponent } from './progress-skill/progress-skill.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     SkillCardsComponent,
     IntroBlockComponent,
     CtaBlockComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ProgressSkillComponent
   ],
   imports: [
     BrowserModule,
