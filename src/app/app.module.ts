@@ -11,6 +11,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillCardsComponent } from './skill-cards/skill-cards.component';
 import { IntroBlockComponent } from './intro-block/intro-block.component';
 import { CtaBlockComponent } from './cta-block/cta-block.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CtaBlockComponent } from './cta-block/cta-block.component';
     AboutMeComponent,
     SkillCardsComponent,
     IntroBlockComponent,
-    CtaBlockComponent
+    CtaBlockComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

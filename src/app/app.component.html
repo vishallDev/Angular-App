@@ -1,8 +1,8 @@
-<app-header></app-header>
-<app-hero></app-hero>
-<app-intro-block></app-intro-block>
-<app-cta-block></app-cta-block>
-<app-footer></app-footer>
+<app-header *ngIf="!demo"></app-header>
+<app-hero *ngIf="!demo"></app-hero>
+<app-intro-block *ngIf="!demo"></app-intro-block>
+<app-cta-block *ngIf="!demo"></app-cta-block>
+<app-footer *ngIf="!demo"></app-footer>
 <div class="loader_wrap" *ngIf="demo">
     <img src="../assets/Rocket.gif" alt="">
 </div>
