@@ -22,7 +22,7 @@ $grey_secondary: #DFDCE3;
 }
 
 @mixin transition() {
-    transition: 0.7s ease all;
+    transition: 0.4s ease all;
 }
 
 .btn {
@@ -39,6 +39,16 @@ $grey_secondary: #DFDCE3;
     &:hover {
         background-color: $yellow_primary;
         color: $black_primary;
+    }
+    &.block-btn {
+        padding: 10px 60px;
+        border-color: $color-black;
+        color: $color-black;
+        border-radius: 0px;
+        &:hover {
+            background-color: $black_primary;
+            color: $yellow_primary;
+        }
     }
 }
 

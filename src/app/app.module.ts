@@ -13,7 +13,8 @@ import { IntroBlockComponent } from './intro-block/intro-block.component';
 import { CtaBlockComponent } from './cta-block/cta-block.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ProgressSkillComponent } from './progress-skill/progress-skill.component';
-
+import { EducationComponent } from './pages/education/education.component';
+import { CommonModule  } from "@angular/common";
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,11 +26,13 @@ import { ProgressSkillComponent } from './progress-skill/progress-skill.componen
     IntroBlockComponent,
     CtaBlockComponent,
     AboutUsComponent,
-    ProgressSkillComponent
+    ProgressSkillComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
