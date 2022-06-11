@@ -6,16 +6,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col_content">
-                <h1>I AM <span class="type spanbest1"></span>
-                    <span class="typed-cursor">&lt;\&gt;</span></h1>
-                <ul>
-                    <li>Web Developer.</li>
-                    <li>Front End Enthusiast.</li>
-                    <li>UI Developer</li>
-                    <li>Wordpress skillful</li>
-                    <li>CSS/SCSS Expert</li>
-                    <li>Angular seasoned</li>
-                </ul>
+                <ngx-typed-js [strings]="[
+                'Web Developer.',
+                'Front End Enthusiast.',
+                'UI Developer',
+                'Wordpress skillful',
+                'CSS/SCSS Expert',
+                'Angular seasoned'
+                ]" [shuffle]="true" [typeSpeed]="40" [backSpeed]="90" [smartBackspace]="true" [loop]="true">
+                <h1>I AM  <span class="typing"></span><span class="typed-cursor">&lt;\&gt;</span></h1>
+                  </ngx-typed-js>
             </div>
         </div>
     </div>

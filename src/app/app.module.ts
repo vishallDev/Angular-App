@@ -15,6 +15,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ProgressSkillComponent } from './progress-skill/progress-skill.component';
 import { EducationComponent } from './pages/education/education.component';
 import { CommonModule  } from "@angular/common";
+import {NgxTypedJsModule} from 'ngx-typed-js';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +28,14 @@ import { CommonModule  } from "@angular/common";
     CtaBlockComponent,
     AboutUsComponent,
     ProgressSkillComponent,
-    EducationComponent
+    EducationComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    NgxTypedJsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
