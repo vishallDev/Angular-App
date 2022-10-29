@@ -16,6 +16,7 @@ import { ProgressSkillComponent } from './progress-skill/progress-skill.componen
 import { EducationComponent } from './pages/education/education.component';
 import { CommonModule  } from "@angular/common";
 import {NgxTypedJsModule} from 'ngx-typed-js';
+import { HomeComponent } from './pages/home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import {NgxTypedJsModule} from 'ngx-typed-js';
     AboutUsComponent,
     ProgressSkillComponent,
     EducationComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

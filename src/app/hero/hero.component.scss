@@ -17,21 +17,8 @@
                 font-family: $font_mario;
                 line-height: 60px;
                 margin-bottom: 26px;
-            }
-            ul {
-                margin: 0;
-                padding: 0;
-                height: 60px;
-                overflow: hidden;
-                text-align: center;
-                li {
-                    list-style: none;
-                    line-height: 60px;
+                span {
                     color: $yellow_primary;
-                    font-size: 50px;
-                    font-family: $font_mario;
-                    animation: demo 13s ease-out infinite forwards;
-                    position: relative;
                 }
             }
         }
