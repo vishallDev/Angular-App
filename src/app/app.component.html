@@ -1,10 +1,5 @@
 <app-header *ngIf="!demo"></app-header>
-<app-hero *ngIf="!demo"></app-hero>
-<app-intro-block *ngIf="!demo"></app-intro-block>
-<app-skill-cards *ngIf="!demo"></app-skill-cards>
-<app-cta-block *ngIf="!demo"></app-cta-block>
-<app-progress-skill *ngIf="!demo"></app-progress-skill>
-<app-education></app-education>
+<router-outlet *ngIf="!demo"></router-outlet>
 <app-footer *ngIf="!demo"></app-footer>
 <div class="loader_wrap" *ngIf="demo">
     <img src="../assets/Rocket.gif" alt="">
