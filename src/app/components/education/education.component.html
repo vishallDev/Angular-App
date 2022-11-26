@@ -1,0 +1,13 @@
+<div class="timeline_wrapper">
+    <div class="single_timeline" *ngFor="let row of education" style="background-image:url('{{row.bg_url}}');">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col_timeline">
+                    <h2 class="year">{{row.year}}</h2>
+                    <div class="desc_block" [innerHtml]="row.content">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

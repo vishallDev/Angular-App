@@ -1,0 +1,37 @@
+<div class="cta_wrapper">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-8 offset-lg-2" *ngFor="let row of ctaBlock;let i = index">
+
+              <div class="inner">
+
+                  <div class="image_wrap">
+                      <img src="{{row.img}}" alt="">
+                  </div>
+                  <div class="content">
+                      <h2 class="title">{{row.title}}</h2>
+                      <p class="info">{{row.info}}</p>
+                      <h3>{{row.language_title}}</h3>
+                      <ul>
+                          <li *ngFor="let lang of row.languages;let j = index">{{lang.title}}</li>
+                      </ul>
+                      <h3>{{row.tools_title}}</h3>
+                      <ul>
+                          <li *ngFor="let tools of row.tools">{{tools.title}}</li>
+                      </ul>
+                      <h3>{{row.extra_lang}}</h3>
+                      <ul>
+                          <li *ngFor="let tools of row.extra_languages" class="d-block">{{tools.title}}</li>
+                      </ul>
+                      <h3>{{row.extra_tools}}</h3>
+                      <ul>
+                          <li *ngFor="let tools of row.e_tools">{{tools.title}}</li>
+                      </ul>
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+  </div>
+</div>

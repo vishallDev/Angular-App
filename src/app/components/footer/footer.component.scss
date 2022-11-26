@@ -1,0 +1,44 @@
+@import "../../assets/Styles/Common/variables.scss";
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: $black_primary;
+
+    .top_wrap {
+        p {
+            color: $white_primary;
+            font-family: $font_headings;
+            font-size: 14px;
+            font-weight: 300;
+            margin-bottom: 0px;
+            a {
+                text-decoration: none;
+                color: $yellow_primary;
+                font-weight: 400;
+            }
+        }
+        margin-bottom: 14px;
+    }
+    .bottom_wrap {
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                list-style: none;
+                display: inline-block;
+                margin: 0px 18px;
+                &:hover {
+                    a {
+                        color: $yellow_primary;
+                    }
+                }
+                a {
+                    text-decoration: none;
+                    color: $grey_secondary;
+                    @include transition();
+                }
+            }
+        }
+    }
+}
